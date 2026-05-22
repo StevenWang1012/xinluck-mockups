@@ -1,0 +1,19 @@
+{
+  "name": "xinluck-mockups",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Xinluck operations mockups for Notion and CodeSandbox demos.",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}
