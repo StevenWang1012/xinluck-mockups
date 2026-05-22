@@ -2,6 +2,7 @@
   "name": "xinluck-mockups",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Xinluck operations mockups for Notion and CodeSandbox demos.",
   "scripts": {
     "start": "vite --host 0.0.0.0 --port 3000",
