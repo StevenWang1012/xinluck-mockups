@@ -4,16 +4,15 @@
   "private": true,
   "description": "Xinluck operations mockups for Notion and CodeSandbox demos.",
   "scripts": {
-    "start": "vite --host 0.0.0.0",
-    "dev": "vite --host 0.0.0.0",
+    "start": "vite --host 0.0.0.0 --port 3000",
+    "dev": "vite --host 0.0.0.0 --port 3000",
     "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host 0.0.0.0 --port 3000"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  },
-  "devDependencies": {}
+    "@vitejs/plugin-react": "^5.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^6.4.2"
+  }
 }
